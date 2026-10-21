@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Personal portfolio – skills, projects, resume and contact information." />
+  <title>Iqra Hayat | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ============ NAVBAR ============ -->
+  <header class="navbar" id="navbar">
+    <a href="#home" class="logo">Iqra<span>.</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+    <nav id="navLinks" class="nav-links">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#resume">Resume</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- ============ HERO ============ -->
+  <section id="home" class="hero">
+    <div class="hero-content fade-in">
+      <p class="hello">Hello, I'm</p>
+      <h1>Iqra Hayat</h1>
+      <h2>I'm a <span id="typed" class="typed"></span><span class="cursor">|</span></h2>
+      <p class="hero-text">
+        I build clean, responsive and user-friendly websites. Currently learning and
+        creating projects with HTML, CSS and JavaScript.
+      </p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn primary">View My Work</a>
+        <a href="#contact" class="btn outline">Contact Me</a>
+      </div>
+    </div>
+    <div class="hero-image fade-in">
+      <div class="avatar">
+        <!-- Replace with your photo: <img src="images/me.jpg" alt="Iqra Hayat"> -->
+        <span>IH</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section id="about" class="section">
+    <h2 class="section-title reveal">About <span>Me</span></h2>
+    <div class="about-grid">
+      <div class="about-text reveal">
+        <p>
+          Hi! I'm a passionate web development student who loves turning ideas into
+          real, working websites. I enjoy writing clean code, designing simple
+          interfaces and solving problems with JavaScript.
+        </p>
+        <p>
+          Right now I'm building projects like a calculator, a music player and this
+          portfolio to strengthen my fundamentals. My goal is to become a professional
+          front-end developer and keep learning every day.
+        </p>
+        <ul class="info-list">
+          <li><strong>Name:</strong> Iqra Hayat</li>
+          <li><strong>Email:</strong> hayatiqra277@gmail.com</li>
+          <li><strong>Location:</strong> Punjab, Pakistan</li>
+          <li><strong>Interests:</strong> Web Development, UI Design</li>
+        </ul>
+      </div>
+      <div class="stats reveal">
+        <div class="stat"><h3 data-count="3">0</h3><p>Projects Built</p></div>
+        <div class="stat"><h3 data-count="3">0</h3><p>Core Technologies</p></div>
+        <div class="stat"><h3 data-count="100">0</h3><p>% Dedication</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SKILLS ============ -->
+  <section id="skills" class="section alt">
+    <h2 class="section-title reveal">My <span>Skills</span></h2>
+    <div class="skills-grid">
+      <div class="skill reveal">
+        <div class="skill-head"><span>HTML5</span><span>90%</span></div>
+        <div class="bar"><div class="fill" data-width="90"></div></div>
+      </div>
+      <div class="skill reveal">
+        <div class="skill-head"><span>CSS3 / Responsive Design</span><span>85%</span></div>
+        <div class="bar"><div class="fill" data-width="85"></div></div>
+      </div>
+      <div class="skill reveal">
+        <div class="skill-head"><span>JavaScript</span><span>75%</span></div>
+        <div class="bar"><div class="fill" data-width="75"></div></div>
+      </div>
+      <div class="skill reveal">
+        <div class="skill-head"><span>Git &amp; GitHub</span><span>70%</span></div>
+        <div class="bar"><div class="fill" data-width="70"></div></div>
+      </div>
+      <div class="skill reveal">
+        <div class="skill-head"><span>Problem Solving</span><span>80%</span></div>
+        <div class="bar"><div class="fill" data-width="80"></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROJECTS ============ -->
+  <section id="projects" class="section">
+    <h2 class="section-title reveal">My <span>Projects</span></h2>
+    <div class="projects-grid">
+      <article class="card reveal">
+        <div class="card-img grad1">🧮</div>
+        <div class="card-body">
+          <h3>Calculator</h3>
+          <p>A basic calculator with all arithmetic operations, keyboard support and a modern glass UI.</p>
+          <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+          <div class="card-links">
+            <a href="../calculator/index.html" target="_blank" rel="noopener">Live Demo →</a>
+            <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card reveal">
+        <div class="card-img grad2">🎵</div>
+        <div class="card-body">
+          <h3>Music Player</h3>
+          <p>Audio player with play/pause, next/previous, progress bar, volume control and a playlist.</p>
+          <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+          <div class="card-links">
+            <a href="../music-player/index.html" target="_blank" rel="noopener">Live Demo →</a>
+            <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card reveal">
+        <div class="card-img grad3">💼</div>
+        <div class="card-body">
+          <h3>Portfolio Website</h3>
+          <p>This responsive personal portfolio with smooth scrolling, animations and hover effects.</p>
+          <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+          <div class="card-links">
+            <a href="#home">Live Demo →</a>
+            <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ============ RESUME ============ -->
+  <section id="resume" class="section alt">
+    <h2 class="section-title reveal">My <span>Resume</span></h2>
+    <div class="timeline">
+      <div class="timeline-item reveal">
+        <span class="date">2024 – Present</span>
+        <h3>Web Development Training / Internship</h3>
+        <p>Building projects with HTML, CSS and JavaScript – calculator, portfolio and music player.</p>
+      </div>
+      <div class="timeline-item reveal">
+        <span class="date">Education</span>
+        <h3>Your Degree / College Name</h3>
+        <p>Add your education details here (degree, institute, year).</p>
+      </div>
+      <div class="timeline-item reveal">
+        <span class="date">Certifications</span>
+        <h3>Front-End Web Development</h3>
+        <p>Add any course or certificate you completed here.</p>
+      </div>
+    </div>
+    <div class="center reveal">
+      <!-- Put your resume PDF in the same folder and name it resume.pdf -->
+      <a href="resume.pdf" download class="btn primary">⬇ Download Resume</a>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section id="contact" class="section">
+    <h2 class="section-title reveal">Contact <span>Me</span></h2>
+    <div class="contact-grid">
+      <div class="contact-info reveal">
+        <h3>Let's work together!</h3>
+        <p>Have a project in mind or just want to say hi? Send me a message.</p>
+        <p>📧 <a href="mailto:hayatiqra277@gmail.com">hayatiqra277@gmail.com</a></p>
+        <p>📍 Punjab, Pakistan</p>
+        <div class="socials">
+          <a href="https://github.com/" target="_blank" rel="noopener" aria-label="GitHub">GH</a>
+          <a href="https://linkedin.com/" target="_blank" rel="noopener" aria-label="LinkedIn">in</a>
+          <a href="mailto:hayatiqra277@gmail.com" aria-label="Email">@</a>
+        </div>
+      </div>
+
+      <form class="contact-form reveal" id="contactForm" novalidate>
+        <input type="text" id="name" placeholder="Your Name" required />
+        <input type="email" id="email" placeholder="Your Email" required />
+        <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn primary">Send Message</button>
+        <p id="formMsg" class="form-msg"></p>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Iqra Hayat. All rights reserved.</p>
+  </footer>
+
+  <button id="toTop" class="to-top" aria-label="Back to top">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
